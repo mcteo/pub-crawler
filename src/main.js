@@ -12,7 +12,7 @@ Vue.use(Buefy)
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCitBdQoj1x86_WC-faulCv_iz2LSZicDI',
-    libraries: 'places,drawing'
+    libraries: 'places,drawing,geometry'
   }
 })
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="field has-addons">
+  <div class="field">
     <div class="control is-expanded">
       <gmap-autocomplete
         @place_changed="jumpToLocation"
@@ -7,12 +7,6 @@
         class="input is-large"
         >
       </gmap-autocomplete>
-      <!-- <input class="input is-large" type="text" placeholder="Jump to Location..."> -->
-    </div>
-    <div class="control">
-      <a class="button is-success is-large">
-        Go!
-      </a>
     </div>
   </div>
 </template>
@@ -21,9 +15,7 @@
 export default {
   name: 'SearchBar',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return {}
   },
   methods: {
     jumpToLocation (place) {
@@ -38,7 +30,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 * {
   /*background-color: aqua;*/
