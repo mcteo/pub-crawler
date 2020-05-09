@@ -10,6 +10,7 @@
   "dependencies": {
     "buefy": "^0.8.17",
     "core-js": "^3.6.4",
+    "dotenv": "^8.2.0",
     "vue": "^2.6.11",
     "vue2-google-maps": "^0.10.7"
   },
